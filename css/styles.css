@@ -603,11 +603,9 @@ ul {
   height: 92px;
   border: 1px solid var(--primary-icon-color);
   border-radius: 4px;
-}
 
-.clients-list .link {
   fill: var(--primary-icon-color);
-  transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
+  transition: border 250ms var(--timing-function), fill 250ms var(--timing-function);
 }
 
 .clients-list .link:hover,
