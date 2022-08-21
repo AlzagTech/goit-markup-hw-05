@@ -378,6 +378,7 @@ ul {
 
 .backdrop {
   position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
@@ -463,7 +464,7 @@ ul {
 }
 
 .feature-list .item {
-  flex-basis: calc((100% - 90px) / 4);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .feature-list {
@@ -508,12 +509,14 @@ ul {
 }
 
 .img-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  height: 70px;
 
   background: rgba(47, 48, 58, 0.8);
 }
